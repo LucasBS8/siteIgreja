@@ -1,0 +1,341 @@
+* {
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font: 500;
+}
+
+body {
+    background-image: url("../image/logoBackGround.png");
+    background-repeat: no-repeat;
+    background-size: 1000px 2000px;
+    background-position: 0px 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+
+.cabecalhoBox {
+    background-color: #F0E6DC;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logoBox {
+    padding: auto;
+}
+
+.logoRodape {
+    padding-bottom: 0px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    height: 80px;
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.btnBox {}
+
+.btn {
+    height: 60px;
+    width: 120px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 0px;
+    background-color: white;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #5B7552;
+}
+
+.perfilBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+.perfil {
+    width: 60px;
+    height: 60px;
+}
+
+.btnPerfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background-color: transparent;
+    border: 0px;
+}
+
+.btnPerfil:hover {
+    border-radius: 100%;
+    background-color: rgb(190, 190, 190);
+}
+
+.main {
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.eventosGroup {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttonGroupEventos {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.p1Eventos {
+    height: 100%;
+    width: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    color: white;
+}
+
+.p2Eventos {
+    font-size: x-large;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.btnBoxEventos {}
+
+.btnEventos {
+    color: white;
+    height: 80px;
+    width: 420px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 0px;
+    background-color: #5B7552;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+}
+
+.btnEventos:hover {
+    background-color: #BB4430;
+}
+
+.imageBoxEventos {}
+
+.imageEventos {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 50px;
+    width: 700px;
+}
+
+.padresGroup {
+    width: 100%;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    overflow-x: auto;
+    gap: 80px
+}
+
+.padreBox {
+    border-radius: 30px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-color: #F0E6DC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagemPadre {
+    height: 300px;
+    padding: 40px;
+    padding-bottom: 20px;
+    border-radius: 20%;
+
+}
+
+.textBoxPadre {
+    padding: 30px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nomePadre {
+    font-size: 20px;
+    color: #BB4430;
+    font-weight: bolder;
+}
+
+.textoPadre {
+    text-align: center;
+    font-size: 20px;
+    width: 400px;
+}
+
+.propositosGroup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textoPropositos {
+    padding-top: 60px;
+    width: 969px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.buttonGroupPropositos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.btnBoxPropositos {
+    padding: 70px;
+}
+
+.btnPropositos {
+    color: white;
+    font-size: 36px;
+    border: 0px;
+    width: 200px;
+    height: 77px;
+    border-radius: 30px;
+    background-color: #5B7552;
+}
+
+.btnPropositos:hover {
+    background-color: #BB4430;
+}
+
+
+.rodapeBox {
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    color: rgba(255, 255, 255, 0.69);
+    background-color: #2E3C2A;
+}
+
+.textBoxRodape {
+
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logoBoxRodape {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contatosBox {}
+
+.linksBox {}
+
+.link {
+    font-size: 30px;
+}
+
+.contatos {
+    font-size: 30px;
+    width: 700px;
+}
+
+.titleRodape {
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.sitesBox {
+    width: 500PX;
+}
+
+.designRodape {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    align-content: flex-end;
+    align-self: stretch;
+    gap: 10px;
+}
+
+.boxGreen {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border: #64785A;
+    width: 10px;
+    height: 200px;
+    background-color: #5B7552;
+}
+
+.iconsBox {
+    width: 100%;
+    background-color: #64785A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.icon {}
+
+.AddPadreGroup{
+
+}
+
+.textAdd{
+
+}
+
+.inputAdd{
+
+}
+.btnAdd{
+
+}

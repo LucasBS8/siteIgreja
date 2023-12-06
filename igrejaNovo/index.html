@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="css/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Igreja</title>
+</head>
+
+<body>
+  <div class="cabecalhoBox">
+    <div class="logoBox">
+      <img class="logoRodape" src="image/logo.png" alt="" />
+    </div>
+    <div class="buttonGroup">
+      <div class="btnBox">
+        <a href="index.html"><button class="btn">Início</button></a>
+      </div>
+      <div class="btnBox">
+        <a href="agenda.html"><button class="btn">Agenda</button></a>
+      </div>
+      <div class="btnBox">
+        <a href="sobre.html"><button class="btn">Sobre nós</button></a>
+      </div>
+      <div class="btnBox">
+        <button class="btn" onclick="ScrollBar()">
+          Palavras da semana
+        </button>
+      </div>
+      <div class="btnBox">
+        <a href="noticias.html"><button class="btn">Notícias</button></a>
+      </div>
+    </div>
+    <div class="perfilBox">
+      <button class="btnPerfil">
+        <a href="login.html"><img class="perfil" src="image/perfil-de-usuario.png" alt="" /></a>
+      </button>
+    </div>
+  </div>
+  <div class="main">
+    <div class="eventosGroup">
+      <div class="buttonGroupEventos">
+        <div class="btnBoxEventos">
+          <button class="btnEventos">
+            <p class="p1Eventos">01/06/2023</p>
+            <p class="p2Eventos">Nome do evento</p>
+          </button>
+        </div>
+        <div class="btnBoxEventos">
+          <button class="btnEventos">
+            <p class="p1Eventos">01/06/2023</p>
+            <p class="p2Eventos">Nome do evento</p>
+          </button>
+        </div>
+        <div class="btnBoxEventos">
+          <button class="btnEventos">
+            <p class="p1Eventos">01/06/2023</p>
+            <p class="p2Eventos">Nome do evento</p>
+          </button>
+        </div>
+      </div>
+      <div class="imageBoxEventos">
+        <img class="imageEventos" src="image/imageEventos.png" alt="" />
+      </div>
+    </div>
+    <div class="padresGroup" id="padresGroup">
+      <div class="padreBox">
+        <img class="imagemPadre" src="image/padre.png" alt="" />
+        <div class="textBoxPadre">
+          <h2 class="nomePadre">Pastor Rômulo Barcellos</h2>
+          <p class="textoPadre">
+            “Somos a Primeira Igreja Presbiteriana de Campo Grande. Seja
+            muito bem vindo ao nosso canal, e que este seja um espaço onde
+            você possa se conectar com Jesus Cristo!”
+          </p>
+        </div>
+      </div>
+
+      <div class="padreBox">
+        <img class="imagemPadre" src="image/padre.png" alt="" />
+        <div class="textBoxPadre">
+          <h2 class="nomePadre">Pastor Rômulo Barcellos</h2>
+          <p class="textoPadre">
+            “Somos a Primeira Igreja Presbiteriana de Campo Grande. Seja
+            muito bem vindo ao nosso canal, e que este seja um espaço onde
+            você possa se conectar com Jesus Cristo!”
+          </p>
+        </div>
+      </div>
+    </div>
+
+<!--
+<div class="AddPadreGroup" id = "AddPadre">
+        <p class ="textAdd" for="imagemInput">URL da Imagem:</p>
+        <input class ="inputAdd" type="text" id="imagemInput">
+        <p class ="textAdd" for="text">Nome do Padre:</p>
+        <input class ="inputAdd" type="text" id="nomeInput">
+        <p class ="textAdd" for="descricaoInput">Descrição:</p>
+        <textarea class ="inputAdd" id="descricaoInput"></textarea>
+        <button class ="btnAdd" onclick="adicionarNovoBloco()">Adicionar Bloco</button>
+</div> 
+-->
+    <div class="propositosGroup" id="propositosGroup">
+      <h2 class="textoPropositos" id="textoPropositos">
+        Servir a Deus, de forma simples e relevante, firmados na doutrina
+        bíblica, levando as pessoas a um relacionamento crescente com Jesus.
+      </h2>
+      <div class="buttonGroupPropositos">
+        <div class="btnBoxPropositos">
+          <button class="btnPropositos" id="btnMissao" onclick="mudarTexto('missao')">Missão</button>
+        </div>
+        <div class="btnBoxPropositos">
+          <button class="btnPropositos" id="btnVisao" onclick="mudarTexto('visao')">Visão</button>
+        </div>
+        <div class="btnBoxPropositos">
+          <button class="btnPropositos" id="btnValores" onclick="mudarTexto('valores')">Valores</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="logoBoxRodape">
+    <img class="logoRodape" src="image/logo.png" alt="" />
+  </div>
+  <div class="rodapeBox">
+    <div class="logoBoxRodape">
+      <img class="logoRodape" src="image/nome.png" alt="" />
+    </div>
+    <div class="textBoxRodape">
+      <div class="designRodape">
+        <div class="boxGreen"></div>
+        <div class="contatosBox">
+          <h3 class="titleRodape">Contatos</h3>
+          <p class="contatos">Celular: (99)273336-9445</p>
+          <p class="contatos">
+            Endereço: R. Adley, 75 - Morada de Santa Fé, Cariacica - ES,
+            29144-160
+          </p>
+        </div>
+      </div>
+      <div class="designRodape">
+        <div class="boxGreen"></div>
+        <div class="sitesBox">
+          <h3 class="titleRodape">Outros sites</h3>
+          <div class="linksBox">
+            <a href="https://open.spotify.com/playlist/7oRPtugTvMG6k6dndVTPrz?si=1RIkf7yzT4aCpPdFCnhi2A&nd=1"><p class="link">PlayList no Spotify</p></a>
+            <a href="https://soundcloud.com/user-804372176"><p class="link">PodCast</p></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="iconsBox">
+      <a href="https://www.facebook.com/primeiraipcg/"><img class="icon" src="image/facebook.png" alt="" /></a>
+      <a href="https://www.instagram.com/primeiraipcg/"><img class="icon" src="image/instagram.png" alt="" /></a>
+      <a href="https://www.youtube.com/c/1oIgrejaPresbiterianadeCampoGrandeCariacica"><img class="icon" src="image/YouTube.png" alt="" /></a>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

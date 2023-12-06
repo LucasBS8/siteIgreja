@@ -1,0 +1,35 @@
+.noticiaBox {
+    margin: 5%;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: rgba(39, 255, 183, 0.25);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textTitle {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pTitle {
+    font-size: 20px;
+}
+
+.imgNoticia {
+    border-radius: 30px;
+    height: auto;
+    width: 700px;
+}
+
+.desc {
+    width: 700px;
+    padding-top: 40px;
+    text-align: center;
+}
