@@ -1,15 +1,42 @@
+
+window.onload = function () {
+
+    document.getElementById("AddPadre").style.display = "none";
+};
 function Login() {
-    var nome = document.getElementById("nome").value;
+    var nome = document.getElementById("email").value;
     var senha = document.getElementById("senha").value;
 
     if (nome === "adm" && senha === "adm") {
         alert("Login bem-sucedido!");
+        window.location.href ="adm.html";
+        
     } else {
         alert("Credenciais inválidas. Tente novamente.");
     }
 }
-function ScrollBar(){
-    var local = document.getElementById("propositosGroup");
+function ScrollBar() {
+    var local = document.getElementById("palavrasSemanaGroup");
+    var posicaoTop = local.offsetTop - 100;
+    window.scrollTo({
+        left: 0,
+        top: posicaoTop,
+        behavior: "smooth"
+    });
+}
+
+function ScrollBarNotic() {
+    var local = document.getElementById("GroupNoticias");
+    var posicaoTop = local.offsetTop - 100;
+    window.scrollTo({
+        left: 0,
+        top: posicaoTop,
+        behavior: "smooth"
+    });
+}
+
+function ScrollBarEvento() {
+    var local = document.getElementById("GroupEventos");
     var posicaoTop = local.offsetTop - 100;
     window.scrollTo({
         left: 0,
@@ -36,21 +63,6 @@ function mudarTexto(botao) {
     }
 
     document.getElementById('textoPropositos').innerHTML = texto;
-}
-
-
-
-
-// Função para abrir o modal
-function abrirModal() {
-    var modal = document.getElementById('myModal');
-    modal.style.display = 'block';
-}
-
-// Função para fechar o modal
-function fecharModal() {
-    var modal = document.getElementById('myModal');
-    modal.style.display = 'none';
 }
 
 // Função para adicionar um novo bloco com base nos dados do modal
@@ -93,4 +105,14 @@ function adicionarNovoBloco() {
 
     // Fechar o modal após adicionar o bloco
     fecharModal();
+}
+
+function abrirJanela() {
+    if (document.getElementById("AddPadre").style.display == "block") {
+        document.getElementById("AddPadre").style.display = "none";
+
+    } else {
+        document.getElementById("AddPadre").style.display = "block";
+
+    }
 }

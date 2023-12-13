@@ -18,15 +18,13 @@
         <a href="index.html"><button class="btn">Início</button></a>
       </div>
       <div class="btnBox">
-        <a href="agenda.html"><button class="btn">Agenda</button></a>
+        <a href="evento.html"><button class="btn">Eventos</button></a>
       </div>
       <div class="btnBox">
         <a href="sobre.html"><button class="btn">Sobre nós</button></a>
       </div>
       <div class="btnBox">
-        <button class="btn" onclick="ScrollBar()">
-          Palavras da semana
-        </button>
+        <button class="btn" onclick="ScrollBar()">Palavras da semana</button>
       </div>
       <div class="btnBox">
         <a href="noticias.html"><button class="btn">Notícias</button></a>
@@ -70,9 +68,9 @@
         <div class="textBoxPadre">
           <h2 class="nomePadre">Pastor Rômulo Barcellos</h2>
           <p class="textoPadre">
-            “Somos a Primeira Igreja Presbiteriana de Campo Grande. Seja
-            muito bem vindo ao nosso canal, e que este seja um espaço onde
-            você possa se conectar com Jesus Cristo!”
+            “Somos a Primeira Igreja Presbiteriana de Campo Grande. Seja muito
+            bem vindo ao nosso canal, e que este seja um espaço onde você
+            possa se conectar com Jesus Cristo!”
           </p>
         </div>
       </div>
@@ -82,42 +80,55 @@
         <div class="textBoxPadre">
           <h2 class="nomePadre">Pastor Rômulo Barcellos</h2>
           <p class="textoPadre">
-            “Somos a Primeira Igreja Presbiteriana de Campo Grande. Seja
-            muito bem vindo ao nosso canal, e que este seja um espaço onde
-            você possa se conectar com Jesus Cristo!”
+            “Somos a Primeira Igreja Presbiteriana de Campo Grande. Seja muito
+            bem vindo ao nosso canal, e que este seja um espaço onde você
+            possa se conectar com Jesus Cristo!”
           </p>
         </div>
       </div>
     </div>
-
-<!--
-<div class="AddPadreGroup" id = "AddPadre">
-        <p class ="textAdd" for="imagemInput">URL da Imagem:</p>
-        <input class ="inputAdd" type="text" id="imagemInput">
-        <p class ="textAdd" for="text">Nome do Padre:</p>
-        <input class ="inputAdd" type="text" id="nomeInput">
-        <p class ="textAdd" for="descricaoInput">Descrição:</p>
-        <textarea class ="inputAdd" id="descricaoInput"></textarea>
-        <button class ="btnAdd" onclick="adicionarNovoBloco()">Adicionar Bloco</button>
-</div> 
--->
-    <div class="propositosGroup" id="propositosGroup">
-      <h2 class="textoPropositos" id="textoPropositos">
-        Servir a Deus, de forma simples e relevante, firmados na doutrina
-        bíblica, levando as pessoas a um relacionamento crescente com Jesus.
-      </h2>
-      <div class="buttonGroupPropositos">
-        <div class="btnBoxPropositos">
-          <button class="btnPropositos" id="btnMissao" onclick="mudarTexto('missao')">Missão</button>
-        </div>
-        <div class="btnBoxPropositos">
-          <button class="btnPropositos" id="btnVisao" onclick="mudarTexto('visao')">Visão</button>
-        </div>
-        <div class="btnBoxPropositos">
-          <button class="btnPropositos" id="btnValores" onclick="mudarTexto('valores')">Valores</button>
-        </div>
+    <div class="btnJanelaGroup">
+      <button class="btnJanela" onclick="abrirJanela()">Abrir janela</button>
+    </div>
+    <div class="AddPadreGroup" id="AddPadre">
+      <div class="titleJanelaBox">
+        <h1 class="titleJanela">Tela de pastores</h1>
+      </div>
+      <div class="janelaInputBox">
+        <p class="textAdd">URL da Imagem:</p>
+        <input class="inputAdd" type="text" id="imagemInput">
+      </div>
+      <div class="janelaInputBox">
+        <p class="textAdd">Nome do Padre:</p>
+        <input class="inputAdd" type="text" id="nomeInput">
+      </div>
+      <div class="janelaInputBox">
+        <p class="textAdd">Descrição:</p>
+        <textarea class="inputAdd" id="descricaoInput"></textarea>
+      </div>
+      <div class="btnJanelaGroup">
+        <button class="btnJanela" onclick="adicionarNovoBloco()">Adicionar Bloco</button>
+        <button class="btnJanela" onclick="abrirJanela()">Fechar</button>
       </div>
     </div>
+
+    <div class="palavrasSemanaGroup" id="palavrasSemanaGroup">
+      <div class="imgPSBox">
+<img class="imgPS" src="" alt="">
+      </div>
+
+      <div class="descPSBox">
+        <p class="descPS">Assim diz o Senhor à nação de Israel: "Busquem-me e terão vida;
+      </p>
+      </div>
+      <div class="versBox">
+        <p class="vers">
+          Amós 5:4
+        </p>
+      </div>
+    </div>
+
+
   </div>
   <div class="logoBoxRodape">
     <img class="logoRodape" src="image/logo.png" alt="" />
@@ -143,8 +154,12 @@
         <div class="sitesBox">
           <h3 class="titleRodape">Outros sites</h3>
           <div class="linksBox">
-            <a href="https://open.spotify.com/playlist/7oRPtugTvMG6k6dndVTPrz?si=1RIkf7yzT4aCpPdFCnhi2A&nd=1"><p class="link">PlayList no Spotify</p></a>
-            <a href="https://soundcloud.com/user-804372176"><p class="link">PodCast</p></a>
+            <a href="https://open.spotify.com/playlist/7oRPtugTvMG6k6dndVTPrz?si=1RIkf7yzT4aCpPdFCnhi2A&nd=1">
+              <p class="link">PlayList no Spotify</p>
+            </a>
+            <a href="https://soundcloud.com/user-804372176">
+              <p class="link">PodCast</p>
+            </a>
           </div>
         </div>
       </div>
@@ -152,7 +167,8 @@
     <div class="iconsBox">
       <a href="https://www.facebook.com/primeiraipcg/"><img class="icon" src="image/facebook.png" alt="" /></a>
       <a href="https://www.instagram.com/primeiraipcg/"><img class="icon" src="image/instagram.png" alt="" /></a>
-      <a href="https://www.youtube.com/c/1oIgrejaPresbiterianadeCampoGrandeCariacica"><img class="icon" src="image/YouTube.png" alt="" /></a>
+      <a href="https://www.youtube.com/c/1oIgrejaPresbiterianadeCampoGrandeCariacica"><img class="icon"
+          src="image/YouTube.png" alt="" /></a>
     </div>
   </div>
   <script src="js/script.js"></script>

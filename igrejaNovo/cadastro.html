@@ -1,20 +1,23 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/styleLogin.css">
-    <link rel="preconnect" href="https://your-font-file-host/">
-    <link rel="stylesheet" href="https://your-font-file-host/inter.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Document</title>
 </head>
-
 <body>
     <div class="loginBox">
-
-        <h1 class="title">LOGIN</h1>
+        <h1 class="title">CADASTRO</h1>
         <div class="principalBox">
+            
+            <div class="groupBox">
+                <div class="textBox">
+                    <p class="text">Nome completo</p>
+                </div>
+                <input class="input" type="text" id="nome">
+            </div>
+
             <div class="groupBox">
                 <div class="textBox">
                     <p class="text">E-mail</p>
@@ -28,19 +31,16 @@
                 <input class="input" type="text" id="senha">
             </div>
             <div class="userNovoBox">
-                
-                <label class="userNovo">É usuário novo? <a href="cadastro.html">clique aqui</a></label>
+    
+                <label class="userNovo">Já tem conta? <a href="login.html">clique aqui</a></label>
             </div>
             <div class="btnBox">
-                    <a href="index.html"><button type="button" class="btn"> Voltar</button></a>
-
+                <a href="index.html"><button type="button" class="btn"> Voltar</button></a>
+    
                 <button type="button" class="btn" onclick="Login()">Entrar</button>
             </div>
         </div>
-
-    </div>
-
     <script src="js/script.js"></script>
-</body>
 
+</body>
 </html>

@@ -1,0 +1,90 @@
+*{
+    font-size: 25px;
+}
+
+body {
+    background-image: url("../image/logoBackGround.png");
+    background-repeat: no-repeat;
+    background-size: 1000px 2400px;
+    background-position: 0px 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.main {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnSair {
+  color: aliceblue;
+  cursor: pointer;
+  height: 60px;
+  width: 120px;
+  border-radius: 20px;
+  padding: 10px;
+  border: 0px;
+  background-color: #5b7552;
+}
+
+.btnSair:hover {
+  background-color: #bb4430;
+}
+
+.titleMainBox {
+  width: 100%;
+  justify-content: flex-start;
+}
+.titleMain {
+  font-size: 50px;
+  color: #bb4430;
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.admGroup {
+
+    padding-bottom:50px ;
+    width: 100%;
+    gap: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.admBox {
+}
+.textAdm {
+}
+.inputAdm {
+  height: 100%;
+  width: 100%;
+}
+
+.btnSalvar {
+color: aliceblue;
+  background-color: #64785a;
+  border: 0px;
+  width: 30%;
+  border-radius: 10px;
+  height: 70px;
+}
+.btnSalvar:hover {
+    background-color: #bb4430;
+  }
+.inputArea {
+
+}
+.imgAdm{
+    height: 400px;
+}
+.imgBox {
+
+}
+img{
+}
